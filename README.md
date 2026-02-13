@@ -9,7 +9,7 @@ Unlike production cryptocurrencies optimized for speed, this project is optimize
 3. Proof of Work (PoW) secures the history of the ledger
 
 ## Scientific concepts
-### 1. RSA & digital signatures (asymmetric cryptography)
+### 1. RSA & digital signatures (Asymmetric Cryptography)
 The security of user funds relies on the RSA algorithm. 
 *   **Theory:** security is based on the computational difficulty of factoring large integers (the product of two large primes $p$ and $q$).
 *   **Implementation:** 
