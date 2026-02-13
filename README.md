@@ -13,9 +13,9 @@ Unlike production cryptocurrencies optimized for speed, this project is optimize
 The security of user funds relies on the RSA algorithm. 
 *   **Theory:** security is based on the computational difficulty of factoring large integers (the product of two large primes $p$ and $q$).
 *   **Implementation:** 
-    *   Users generate a public/private key pair.
-    *   Transactions are signed using the private key: $Signature \equiv Hash(Data)^d \pmod n$.
-    *   The network verifies the signature using the public key: $Hash(Data) \equiv Signature^e \pmod n$.
+    *   Users generate a public/private key pair
+    *   Transactions are signed using the private key
+    *   The network verifies the signature using the public key
 ### 2. The Immutable Ledger (Hashing)
 The blockchain is a linked list where every block contains the **SHA-256 hash** of the previous block.
 *   **Theory:** a hash function maps data of arbitrary size to fixed-size values. It is deterministic but irreversible (One-way function).
