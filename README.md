@@ -5,7 +5,7 @@ A Python implementation of a simplified blockchain cryptocurrency demonstrating 
 This repository bridges the gap between abstract mathematical theories - specifically **Number Theory** and **Modular Arithmetic** - and practical Computer Science applications. 
 Unlike production cryptocurrencies optimized for speed, this project is optimized for **readability and educational value**. It explicitly visualizes how:
 1. RSA key pairs are generated
-2. Digital signatures authticate transactions
+2. Digital signatures authenticate transactions
 3. Proof of Work (PoW) secures the history of the ledger
 
 ## Scientific concepts
