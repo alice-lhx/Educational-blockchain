@@ -24,3 +24,15 @@ The blockchain is a linked list where every block contains the **SHA-256 hash** 
 To synchronize the network without a central authority, we use a simplified Proof of Work algorithm.
 *   **Mechanism:** miners must find a number called a `nonce` such that the hash of the block starts with a specific number of zeros (difficulty).
 *   **Purpose:** This proves computational resources were expended, preventing spam and attacks.
+
+## Code implementation details
+The codebase provides a fully functional, minimal simulation of a cryptocurrency ecosystem. It practically demonstrates:
+*   **User Identity:** How wallets generate and manage cryptographic key pairs.
+*   **Secure Value Transfer:** How a sender signs a transaction with a private key, preventing unauthorized spending.
+*   **Mining & Reward:** How pending transactions are bundled into a block, mathematically sealed via Proof-of-Work (mining), and how the system rewards the miner.
+*   **Cryptographic Verification:** How the network validates individual transactions and ensures the entire blockchain has not been tampered with.
+
+## Project files
+*   **wallet.py:** Handles user identity, RSA key generation, and the digital signing of transactions.
+*   **blockchain.py:** The core engine of the system. It contains the logic for creating transactions, building blocks, executing the Proof-of-Work algorithm, and validating the chain.
+*   **main.py:** The execution script that ties everything together. It simulates a real-world scenario by creating users (Alice and Bob), generating keys, transferring coins, mining blocks, and ultimately verifying the integrity of the resulting blockchain.
